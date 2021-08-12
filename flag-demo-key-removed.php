@@ -1,7 +1,7 @@
 <?php
 require 'vendor/autoload.php';
 
-$sdkKey = "sdk-46053a79-b3df-4b52-b095-9a1a3e00703d";
+$sdkKey = "";
 
 $featureFlagKey = "pricing-tier-3";
 
