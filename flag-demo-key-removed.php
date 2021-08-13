@@ -13,7 +13,7 @@ if (!$sdkKey) {
 $client = new LaunchDarkly\LDClient($sdkKey);
 
 $user = (new LaunchDarkly\LDUserBuilder("test@company.com"))
-  ->name("bgomes")
+  ->name("ld-username")
   ->build();
 
 $flagValue = $client->variation($featureFlagKey, $user, false);
