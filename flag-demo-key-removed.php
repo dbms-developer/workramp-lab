@@ -12,7 +12,7 @@ if (!$sdkKey) {
 
 $client = new LaunchDarkly\LDClient($sdkKey);
 
-$user = (new LaunchDarkly\LDUserBuilder("bgomes@launchdarkly.com"))
+$user = (new LaunchDarkly\LDUserBuilder("test@company.com"))
   ->name("bgomes")
   ->build();
 
